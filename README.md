@@ -1,6 +1,5 @@
 # Francis-Compiler
 
-![License](https://img.shields.io/badge/License-Custom-blue.svg)
 A complete, multi-stage compiler implemented in C++ for educational purposes or processing a specific "Francis" language variant.
 
 ##  Project Introduction
