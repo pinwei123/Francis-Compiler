@@ -3,13 +3,13 @@
 ![License](https://img.shields.io/badge/License-Custom-blue.svg)
 A complete, multi-stage compiler implemented in C++ for educational purposes or processing a specific "Francis" language variant.
 
-## 🚀 Project Introduction
+##  Project Introduction
 
 `Francis-Compiler` is a self-contained compiler pipeline written entirely in **C++**.
 
-The main objective of this project is to provide a working model of a compiler, translating source code (likely a custom language referred to as "Francis") into an Intermediate Representation (IR) or a target code format suitable for execution. The implementation covers both the analytical front-end and the code synthesis back-end stages.
+The main objective of this project is to provide a working model of a compiler, translating source code into an Intermediate Representation (IR) or a target code format suitable for execution. The implementation covers both the analytical front-end and the code synthesis back-end stages.
 
-## ✨ Key Features
+##  Key Features
 
 Based on the structure and classes found in the `Francis_Compiler.cpp` source file, the compiler implements the following core functionalities:
 
@@ -21,7 +21,7 @@ Based on the structure and classes found in the `Francis_Compiler.cpp` source fi
 | **Intermediate Code (IR) Generation** | Generates a lower-level representation of the source code. | The `Code` class utilizes the `imt` structure (Intermediate Code Table) for code generation, typically Three-Address Code. |
 | **Interactive CLI** | Provides a simple, command-line driven interface for user interaction. | Managed within the `main` function loop. |
 
-## 🛠️ Getting Started
+##  Getting Started
 
 Follow these steps to build and run the `Francis-Compiler` on your local machine.
 
@@ -72,24 +72,11 @@ The compiler runs in an interactive command-line mode.
 
 4.  **Provide Input File:**
     * The program will prompt you: `Input file name: `
-    * Enter the name of your source code file (e.g., `program.fran`). Ensure this file exists in the same directory as the executable.
+    * Enter the name of your source code file (e.g., `input.txt`). Ensure this file exists in the same directory as the executable.
 
 5.  **Provide Output File:**
     * The program will then prompt you: `Output file name: `
-    * Enter the desired name for the output file (e.g., `output.imt`). This is where the generated Intermediate Code will be saved.
+    * Enter the desired name for the output file (e.g., `output.txt`). This is where the generated Intermediate Code will be saved.
 
 The compiler will process the input file and write the result to the specified output file.
 
-## 🤝 Contributing
-
-Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-1.  Fork the Project.
-2.  Create your Feature Branch (`git checkout -b feature/AmazingFeature`).
-3.  Commit your Changes (`git commit -m 'Add some AmazingFeature'`).
-4.  Push to the Branch (`git push origin feature/AmazingFeature`).
-5.  Open a Pull Request.
-
-## 📄 License
-
-Distributed under the **[Please specify your license, e.g., MIT]** License. See the `LICENSE` file for more information.
